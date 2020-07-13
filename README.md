@@ -1,6 +1,9 @@
 # Multi-Actor-Attention-Critic
 Code for [*Actor-Attention-Critic for Multi-Agent Reinforcement Learning*](https://arxiv.org/abs/1810.02912) (Iqbal and Sha, ICML 2019)
 
+## Anaconda env
+MADDPG-Pytorch
+
 ## Requirements
 * Python 3.6.1 (Minimum)
 * [OpenAI baselines](https://github.com/openai/baselines), commit hash: 98257ef8c9bd23a24a330731ae54ed086d9ce4a7
