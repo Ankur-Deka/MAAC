@@ -5,7 +5,7 @@ from grid_search import GridSearch
 
 
 # -------- main file to run -------- #
-mode = 'test' # train/test
+mode = 'train' # train/test
 num_process = 6
 
 # -------- define dictionary of arguments for grid search -------- #
@@ -13,7 +13,7 @@ if mode == 'train':
 	main_file = 'main.py'
 	args = 	{
 			# 'cpus': ['37,38,39,40,41'],
-			'env_id': ['simple_tag', 'simple_adversary'],
+			'env_id': ['simple_spread'],
 			'model_name': ['exp_1'],
 			'n_episodes': [2000000],
 			'save_interval': [2000],
