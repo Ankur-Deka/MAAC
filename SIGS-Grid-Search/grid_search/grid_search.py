@@ -18,7 +18,7 @@ class GridSearch():
 			for i,arg_name in enumerate(self.arg_names):
 				if arg_name == 'cpus':
 					taskset_string += 'taskset -c {}'.format(args[i])
-				elif arg_name in ['env_id', 'model_name']:
+				elif arg_name in ['env_id', 'model_name', 'run']:
 					args_string += ' {}'.format(args[i])
 				else:	
 					args_string += ' --{} {}'.format(arg_name, args[i])
